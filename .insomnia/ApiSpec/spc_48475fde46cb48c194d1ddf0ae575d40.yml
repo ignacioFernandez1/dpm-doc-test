@@ -40,7 +40,7 @@ contents: >-
 
 
   paths:
-    /is_auth/:
+    /is_autha/:
       get:
         tags:
         - auth
