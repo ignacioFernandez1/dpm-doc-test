@@ -1,7 +1,7 @@
 _id: spc_48475fde46cb48c194d1ddf0ae575d40
 type: ApiSpec
 parentId: wrk_00d12645ab7c4b6f98f7671a1440aec1
-modified: 1631113119617
+modified: 1631115176682
 created: 1631112264481
 fileName: dpm.yaml
 contents: >-
@@ -40,7 +40,7 @@ contents: >-
 
 
   paths:
-    /is_autha/:
+    /is_auth/:
       get:
         tags:
         - auth
@@ -1626,6 +1626,7 @@ contents: >-
             description: Unauthorized
           403:
             description: Forbidden
+
 
             
   definitions:
